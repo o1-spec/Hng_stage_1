@@ -284,6 +284,6 @@ footer {
 @media (max-width: 400px) {
   .time {
     padding-top: 1rem;
-    transform: translateX(20vw);
+    transform: translateX(19vw);
   }
 }
