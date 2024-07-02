@@ -99,7 +99,12 @@ li a {
 }
 
 .about-section div p {
-  font-size: 1.4rem;
+  font-size: 1.45rem;
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .about-text p:nth-child(1) {
@@ -274,7 +279,9 @@ footer {
   .section-useful div {
     flex-wrap: wrap;
   }
+}
 
+@media (max-width: 400px) {
   .time {
     padding-top: 1rem;
     transform: translateX(20vw);
