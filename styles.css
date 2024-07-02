@@ -87,7 +87,6 @@ li a {
 }
 
 .about-text p:nth-child(1) {
-  font-family: cursive;
   font-size: 1.9rem;
   font-weight: 600;
 }
