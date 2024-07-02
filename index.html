@@ -24,6 +24,7 @@
       src="https://kit.fontawesome.com/fa02f13051.js"
       crossorigin="anonymous"
     ></script>
+
     <link rel="stylesheet" href="./styles.css" />
     <script defer src="./script.js"></script>
     <title>My 2 year Ambition</title>
@@ -34,17 +35,14 @@
       <ul class="nav-links">
         <li>
           <i class="fa-solid fa-bullseye"></i>
-          <a href="#">Goals</a>
-        </li>
-        <li>
-          <a href="">Description</a>
+          <a href="/#goals">Goals</a>
         </li>
       </ul>
     </nav>
     <main>
       <div>
-        <header class="goals-header">
-          <div class="goals-div">
+        <header class="hero-header">
+          <div class="hero-text">
             <h1>My Tech Goals for the Next 2 Years</h1>
             <p>
               I am a proficient frontend developer who has the proper skills
@@ -52,25 +50,39 @@
               to implementing responsive design and logic based projects. I am
               also a trustworthy, creative and efficient communicator . In
               summary, I am committed to delivering exceptional results and
-              eagerly anticipate the opportunity to contribute to impactful
-              projects with like-minded professionals.
+              working with like-minded professionals.
             </p>
+            <div class="section-links">
+              <h2>Links</h2>
+              <div>
+                <a href="https://hng.tech/learn" data-testid="hngLink"
+                  >HNG Learn</a
+                >
+                <a href="https://keyword.dog" data-testid="keywordLink"
+                  >Keyword Dog</a
+                >
+                <a
+                  href="https://scrapeanyweb.site"
+                  data-testid="scrapeanywebLink"
+                  >Scrape Any Web</a
+                >
+              </div>
+            </div>
           </div>
+          <section class="about-section">
+            <div class="about-text">
+              <p data-testid="slackDisplayName">Onadokun Oluwafemi (o1-spec)</p>
+              <p data-testid="slackEmail">oluwafemionadokun@gmail.com</p>
+            </div>
+            <img
+              src="./profile_picture.jpg"
+              alt="Slack Profile Picture"
+              data-testid="slackProfilePicture"
+            />
+          </section>
         </header>
-        <section class="section-links">
-          <h2>Links</h2>
-          <div>
-            <a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
-            <a href="https://keyword.dog" data-testid="keywordLink"
-              >Keyword Dog</a
-            >
-            <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink"
-              >Scrape Any Web</a
-            >
-          </div>
-        </section>
       </div>
-      <section class="section-goals">
+      <section class="section-goals" id="goals">
         <h2>Goals, Aims and Ambitions</h2>
         <div class="aims">
           <div class="aim">
@@ -129,15 +141,21 @@
           </div>
         </div>
       </section>
-      <section class="about-section">
-        <h2>About Me</h2>
-        <p data-testid="slackDisplayName">Onadokun Oluwafemi (o1-spec)</p>
-        <p data-testid="slackEmail">oluwafemionadokun@gmail.com</p>
-        <img
-          src="./profile_picture.jpg"
-          alt="Slack Profile Picture"
-          data-testid="slackProfilePicture"
-        />
+      <section class="section-useful">
+        <h2>Useful Links</h2>
+        <div>
+          <a href="https://hng.tech/learn" data-testid="hngLink"
+            >HNG Learn</a
+          >
+          <a href="https://keyword.dog" data-testid="keywordLink"
+            >Keyword Dog</a
+          >
+          <a
+            href="https://scrapeanyweb.site"
+            data-testid="scrapeanywebLink"
+            >Scrape Any Web</a
+          >
+        </div>
       </section>
     </main>
     <footer>

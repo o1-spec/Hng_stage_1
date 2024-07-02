@@ -6,6 +6,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -54,90 +55,147 @@ li a {
   font-size: 1.6rem;
 }
 
-/*********** DESCRIPTION ***********/
-
-.goals-header {
-  padding: 5rem 0.9rem;
-  width: 100%;
+/*********** HERO SECTION ***********/
+.hero-header {
+  display: flex;
+  padding: 5rem 2rem;
   margin: 0 auto;
+  max-width: 110rem;
+  justify-content: space-between;
+  gap: 8rem;
 }
 
-.goals-div {
-  max-width: 600px;
+.hero-text {
+  flex-basis: 50%;
+  padding-top: 6rem;
+}
+
+.about-section {
+  flex-basis: 50%;
+}
+
+.about-section {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
+  gap: 2rem;
 }
 
-.goals-header h1 {
+.about-section div p {
+  font-size: 1.4rem;
+}
+
+.about-text p:nth-child(1) {
+  font-family: "Pacifico", cursive;
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.hero-text h1 {
   font-family: "Pacifico", cursive;
   font-size: 4rem;
   padding-bottom: 1.6rem;
-  text-align: center;
 }
 
-.goals-header p {
+.hero-text p {
   font-size: 1.5rem;
-  text-align: center;
-  padding: 0rem 1rem;
   font-weight: 600;
   color: #fff;
+  line-height: 2rem;
+}
+
+.about-section img {
+  width: 28rem;
+  border-radius: 6px;
 }
 
 /*************** GOALS ***************/
 .section-goals {
-    max-width: 110rem;
-    margin: 0 auto;
-    padding: 0.6rem;
-    padding-top: 6rem;
+  max-width: 110rem;
+  margin: 0 auto;
+  padding: 0.6rem;
+  padding-top: 6rem;
 }
 
-.section-goals h2{
-    font-size: 3rem;
-    text-align: center;
+.section-goals h2 {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+  text-align: center;
 }
 
-.aim{
-    display: flex;
-    flex-direction: column;
-    gap: 0.4rem;
-    padding-bottom: 1.9rem;
+/********* AIMS **********/
+
+.aims {
+  padding: 2rem 4rem;
 }
 
-.aim h6{
-    font-size: 1.7rem;
+.aim {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding-bottom: 1.9rem;
+  background-color: #fff;
+  color: #000;
+  margin-bottom: 4rem;
+  border-radius: 1rem;
+  padding: 3rem 2.8rem;
 }
 
-.aim p{
-    font-size: 1.2rem;
+.aim h6 {
+  font-size: 2.3rem;
+  padding-bottom: 1rem;
+}
+
+.aim p {
+  font-size: 1.5rem;
 }
 
 /*************** RESOURCES LINKS ************/
-.section-links{
-    padding: 3rem;
+.section-links,
+.section-useful {
+  padding-top: 3rem;
 }
 
-.section-links h2{
-    font-size: 3rem;
-    text-align: center;
-    padding-bottom: 1.7rem;
+.section-links h2,
+.section-useful h2 {
+  font-size: 3rem;
+  padding-bottom: 1.7rem;
 }
 
-.section-links div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
+.section-links div,
+.section-useful div {
+  display: flex;
+  gap: 3rem;
 }
 
-.section-links div a{
-    color: #fff;
-    font-size: 1.8rem;
+.section-links div a,
+.section-useful div a {
+  color: #fff;
+  font-size: 1.6rem;
 }
 
+.section-useful h2 {
+  text-align: center;
+}
+
+.section-useful {
+  padding-bottom: 6rem;
+}
+
+.section-useful div {
+  align-items: center;
+  justify-content: center;
+}
 
 /*********** FOOTER *************/
 footer {
@@ -148,4 +206,28 @@ footer {
 .footer {
   text-align: center;
   font-size: 1.5rem;
+}
+
+/*************MEDIA QUERIES ************/
+@media (max-width: 1000px) {
+  nav,
+  .hero-header {
+    padding-left: 4rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-header {
+    flex-direction: column;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .section-links div {
+    align-items: center;
+    justify-content: center;
+  }
 }
