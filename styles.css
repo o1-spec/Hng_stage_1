@@ -23,6 +23,7 @@ nav {
   align-items: center;
   max-width: 110rem;
   margin: 0 auto;
+  gap: 2rem;
   justify-content: space-between;
 }
 
@@ -53,6 +54,21 @@ li a {
   color: #fff;
   text-decoration: none;
   font-size: 1.6rem;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.time h4 {
+  font-size: 1.67rem;
+}
+
+.time p {
+  font-size: 1.4rem;
 }
 
 /*********** HERO SECTION ***********/
@@ -111,6 +127,8 @@ li a {
   font-weight: 600;
   color: #fff;
   line-height: 2rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .about-section img {
@@ -214,6 +232,11 @@ footer {
     padding-left: 4rem;
     padding-right: 3rem;
   }
+
+  .time {
+    padding-top: 1rem;
+    transform: translateX(24vw);
+  }
 }
 
 @media (max-width: 900px) {
@@ -231,13 +254,20 @@ footer {
   }
 }
 
+@media (max-width: 600px) {
+  nav {
+    flex-wrap: wrap;
+  }
+}
+
 @media (max-width: 450px) {
   nav {
     padding-left: 2rem;
     padding-right: 2rem;
   }
-  .hero-header{
-    padding-top: 2.5rem;
+
+  .hero-header {
+    padding-top: 1rem;
   }
 
   .section-links div,
