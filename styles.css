@@ -274,4 +274,9 @@ footer {
   .section-useful div {
     flex-wrap: wrap;
   }
+
+  .time {
+    padding-top: 1rem;
+    transform: translateX(20vw);
+  }
 }
