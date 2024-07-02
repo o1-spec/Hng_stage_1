@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  background-color: black;
+  color: #fff;
+}
+
+/************ NAV ****************/
+nav {
+  padding: 3rem 2rem;
+  display: flex;
+  align-items: center;
+  max-width: 110rem;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+nav h2 {
+  font-size: 3rem;
+  font-family: "Pacifico", cursive;
+  font-weight: 600;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+li i {
+  font-size: 1.6rem;
+}
+
+li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+/*********** DESCRIPTION ***********/
+
+.goals-header {
+  padding: 5rem 0.9rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.goals-div {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.goals-header h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 4rem;
+  padding-bottom: 1.6rem;
+  text-align: center;
+}
+
+.goals-header p {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0rem 1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+/*************** GOALS ***************/
+.section-goals {
+    max-width: 110rem;
+    margin: 0 auto;
+    padding: 0.6rem;
+    padding-top: 6rem;
+}
+
+.section-goals h2{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.aim{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding-bottom: 1.9rem;
+}
+
+.aim h6{
+    font-size: 1.7rem;
+}
+
+.aim p{
+    font-size: 1.2rem;
+}
+
+/*************** RESOURCES LINKS ************/
+.section-links{
+    padding: 3rem;
+}
+
+.section-links h2{
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 1.7rem;
+}
+
+.section-links div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.section-links div a{
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+
+/*********** FOOTER *************/
+footer {
+  padding: 3rem;
+  border-top: 1px solid #fff;
+}
+
+.footer {
+  text-align: center;
+  font-size: 1.5rem;
+}
