@@ -229,7 +229,7 @@ footer {
 @media (max-width: 1000px) {
   nav,
   .hero-header {
-    padding-left: 4rem;
+    padding-left: 3rem;
     padding-right: 3rem;
   }
 
