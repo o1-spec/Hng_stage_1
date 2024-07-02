@@ -87,7 +87,7 @@ li a {
 }
 
 .about-text p:nth-child(1) {
-  font-family: "Pacifico", cursive;
+  font-family: cursive;
   font-size: 1.9rem;
   font-weight: 600;
 }
@@ -229,5 +229,20 @@ footer {
   .section-links div {
     align-items: center;
     justify-content: center;
+  }
+}
+
+@media (max-width: 450px) {
+  nav {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .hero-header{
+    padding-top: 2.5rem;
+  }
+
+  .section-links div,
+  .section-useful div {
+    flex-wrap: wrap;
   }
 }
