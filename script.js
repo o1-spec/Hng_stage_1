@@ -13,8 +13,10 @@ function updateTime() {
 window.onload = updateTime;
 setInterval(updateTime, 60000); // Update time every minute
 
+/*
 window.onload = function () {
   const img = document.querySelector('[data-testid="slackProfilePicture"]');
   console.log("Natural Width:", img.naturalWidth);
   console.log("Natural Height:", img.naturalHeight);
 };
+*/
